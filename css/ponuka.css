@@ -1,0 +1,75 @@
+@import "farby.css";
+div.ponadpis{font-size: 100px;
+    width: 100%;
+    height: 130px;
+    background-color:var(--farba2);
+    text-align: center;
+    color: var(--txtb);
+}
+
+ul.ponuka{height:500px;
+    background-color:var(--farba1);
+    padding: 5%;
+    display: flex;
+}
+
+li.ponuka1{background-image: url(../obrazky/chata1.jpg);
+    height: 500px;
+    width: 48%;
+    margin-right: 4%;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-size: 0px;
+    color:rgba(0,0,0,0);
+    border-radius: 20px;
+    transition-duration: 700ms;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+  
+}
+
+li.ponuka1:hover{background-image: url(../obrazky/chata1u.jpg);
+    font-size: 60px;
+    color: var(--txtb);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition-duration: 700ms
+
+}
+p.viac {margin-top: 100px;
+    text-decoration: underline;
+    font-size: 30px;
+}
+
+li.ponuka2{background-image: url(../obrazky/chata2.jpg);
+    height: 500px;
+    width: 48%;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: rgba(0,0,0,0);
+    border-radius: 20px;
+    transition-duration: 700ms;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    
+    
+}
+li.ponuka2:hover{background-image: url(../obrazky/chata2u.jpg);
+    font-size: 60px;
+    color: var(--txtb);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition-duration: 700ms
+}

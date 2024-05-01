@@ -1,0 +1,208 @@
+@import "farby.css";
+
+
+ul.parent{max-width: 100%;
+    height: 500px;
+    background-color:var(--farba4);
+    display: flex;
+    padding: 5%;
+    align-items: center;}
+
+li.kid1{background-image: url(../obrazky/leto.png);
+  height: 445px;
+  margin-right: 20px; 
+  width: 22%;
+  margin-left: auto;
+  text-align: center;
+  font-size: 0px; 
+  background-position: center;
+  border-radius: 15px;
+  transition-duration: 700ms;
+ 
+}
+
+li.kid1:hover{background-image: url(../obrazky/letot.png);
+  text-align: center;
+  font-size: 0px; 
+  background-position: center;
+  transition-duration: 700ms;
+}    
+
+
+li.kid2{background-image: url(../obrazky/zima.png);
+  height: 445px;
+  width: 22%;
+  text-align: center;
+  font-size: 0px;
+  background-position: center;
+  border-radius: 15px;
+  transition-duration: 700ms;
+ 
+
+}
+
+li.kid2:hover{background-image: url(../obrazky/zimat.png);
+  text-align: center;
+  font-size: 0px;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition-duration: 700ms;
+}          
+
+li.kid3{background-image: url(../obrazky/priroda.png);
+  height: 445px;
+  width: 22%;
+margin-right: 20px;
+margin-left: 20px;
+text-align: center;          
+font-size: 0px;
+background-position: center;
+border-radius: 15px;
+transition-duration: 700ms;
+
+}      
+
+li.kid3:hover{background-image: url(../obrazky/prirodat.png);
+  text-align: center;
+  font-size: 0px;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition-duration: 700ms;
+}
+li.kid4{background-image: url(../obrazky/investicia.png);
+  height: 445px;
+  width: 22%;
+   margin-right: auto;
+   text-align: center;
+   font-size: 0px;
+   background-repeat: no-repeat;
+   background-position: center;
+   border-radius: 15px;
+   transition-duration: 700ms;
+ 
+}
+
+li.kid4:hover{background-image: url(../obrazky/investiciat.png);
+  text-align: center;
+  font-size: 0px;
+  background-repeat: no-repeat;
+  margin-right: auto;
+  background-position: center;
+  transition-duration: 700ms;
+ }
+
+
+
+
+
+
+
+ @media screen and (max-width:15px) {
+  
+  ul.parent{max-width: 100%;
+    height: 100vh;
+    background-color:var(--farba2);
+    display: grid;
+    padding: 5%;
+    align-items: center;
+    grid-row: 500px 500px 500px 500px;
+    grid-column: span;
+    -ms-grid-column-align: center;
+  }
+
+li.kid1{background-image: url(../obrazky/leto.png);
+  height: 445px;
+  margin-right: 20px; 
+  width: 90vw;
+  margin-left: auto;
+  text-align: center;
+  font-size: 0px; 
+  background-position: center;
+  border-radius: 15px;
+  transition-duration: 700ms;
+  -ms-grid-column-align: center;
+  overflow: hidden;
+  background-repeat: no-repeat;
+ 
+}
+
+li.kid1:hover{background-image: url(../obrazky/letot.png);
+  text-align: center;
+  font-size: 0px; 
+  background-position: center;
+  transition-duration: 700ms;
+  -ms-grid-column-align: center;
+  overflow: hidden;
+  
+}    
+
+
+li.kid2{background-image: url(../obrazky/zima.png);
+  height: 445px;
+  width: 90vw;
+  text-align: center;
+  font-size: 0px;
+  background-position: center;
+  border-radius: 15px;
+  transition-duration: 700ms;
+  -ms-grid-column-align: center;
+  overflow: hidden;
+  background-repeat: no-repeat;
+
+}
+
+li.kid2:hover{background-image: url(../obrazky/zimat.png);
+  text-align: center;
+  font-size: 0px;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition-duration: 700ms;
+}          
+
+li.kid3{background-image: url(../obrazky/priroda.png);
+  height: 445px;
+  width: 90vw;
+margin-right: 20px;
+margin-left: 20px;
+text-align: center;          
+font-size: 0px;
+background-position: center;
+border-radius: 15px;
+transition-duration: 700ms;
+overflow: hidden;
+background-repeat: no-repeat;
+
+}      
+
+li.kid3:hover{background-image: url(../obrazky/prirodat.png);
+  text-align: center;
+  font-size: 0px;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition-duration: 700ms;
+  overflow: hidden;
+ }
+
+li.kid4{background-image: url(../obrazky/investicia.png);
+  height: 445px;
+  width: 90vw;
+   margin-right: auto;
+   text-align: center;
+   font-size: 0px;
+   background-repeat: no-repeat;
+   background-position: center;
+   border-radius: 15px;
+   transition-duration: 700ms;
+   overflow: hidden;
+   background-repeat: no-repeat;
+ 
+}
+
+li.kid4:hover{background-image: url(../obrazky/investiciat.png);
+  text-align: center;
+  font-size: 0px;
+  background-repeat: no-repeat;
+  margin-right: auto;
+  background-position: center;
+  transition-duration: 700ms;
+}}

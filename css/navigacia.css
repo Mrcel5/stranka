@@ -1,0 +1,45 @@
+@import "farby.css";
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+ /*vzpnutie zakldnych nastaveni prehlidacu*/
+ *{margin: 0;
+    padding: 0;
+    font-family: Roboto;
+  }
+  
+  /*navigacia bez bodiek*/
+  ul.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: var(--farba5);
+  }
+  
+  /*umiesnenie navigacie na lavo */
+  li.nav {
+  float: left;
+  }
+  
+  /*navigacia farba textu, vyvazenie na stred*/
+  li.nav a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition-duration: 500ms;
+  }
+  
+ /*navigacia levitovanie meni farbu*/ 
+  li.nav a:hover {
+  background-color: var(--farba2);
+  transition-duration: 500ms;
+  
+  }
+ /*rozkliknutie meni farbu*/ 
+li.nav a:active {
+  background-color: var(--farba2);
+  }
+
+body{width: 100%;}
